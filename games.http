@@ -1,0 +1,15 @@
+GET http://localhost:5299/games
+
+###
+GET http://localhost:5299/games/4
+
+###
+POST http://localhost:5299/games/
+Content-Type: application/json
+
+{
+    "name" : "Super Mario Bros",
+    "genre" : "Platformer",
+    "price" : 59.99,
+    "releaseDate" : "1985-09-13"
+}
